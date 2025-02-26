@@ -30,7 +30,7 @@ p{
 }
 
 nav a{
-    justify-content: center;
+    position: center;
     color: #ffffff;
     padding: 20px;
     text-decoration: none;
