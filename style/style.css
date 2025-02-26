@@ -65,10 +65,7 @@ main{
     background-size: cover;
 }
 
-.logoinicio{
-    width: 100%;
-    height: 100;
-    background-size: center;
+
     
 #inicio,#sobre,#servicos#contato{
     width: 100%;
@@ -86,7 +83,11 @@ main{
 
 }
 
-
+.logoinicio{
+    width: 100%;
+    height: 100;
+    background-size: center;
+    
 .back-to-top{
     position: fixed;
     bottom: 20px;
