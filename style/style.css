@@ -29,6 +29,7 @@ p{
 }
 
 nav a{
+    position: fixed;
     color: #ffffff;
     padding: 20px;
     text-decoration: none;
