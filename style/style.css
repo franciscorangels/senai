@@ -63,6 +63,10 @@ main{
     padding: 25px;
 }
 
+.logoinicio{
+    size: auto;
+    position: fixed;
+    
 #inicio,#sobre,#servicos#contato{
     width: 100%;
     height: auto;
