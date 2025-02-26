@@ -52,7 +52,7 @@ main{
     bottom: -300px;
 }
 
-.carousel slide{
+.carousel-slide{
     width: 100%;
     height: 500px;
     background-image: url("../images/banner.png");
@@ -60,7 +60,9 @@ main{
 }
 
 .logo{
-    padding: 25px;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
 }
 
 .logoinicio{
