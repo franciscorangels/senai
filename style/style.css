@@ -65,7 +65,7 @@ main{
 
 .logoinicio{
     size: auto;
-    position: fixed;
+    position: center;
     
 #inicio,#sobre,#servicos#contato{
     width: 100%;
