@@ -14,6 +14,7 @@ header{
 }
 
 nav{
+    position: fixed;
     display: flex;
     justify-content: center;
     background-color: #161616;
