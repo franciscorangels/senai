@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffffff;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: #080808;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #161616;
+    position: fixed;
+    top: 100;
+    left: 0;
+    width: 100%;
+    opacity: 90%;
+}
+
+p{
+    line-height: 30px;
+}
+
+nav a{
+    color: #ffffff;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+main{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 25px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.botao{
+    padding-left: 125px;
+    size: auto;
+    position: relative;
+    bottom: -300px;
+}
+
+.banner{
+    width: 100%;
+    height: 500px;
+    background-image: url("../images/banner.png");
+    background-size: cover;
+}
+
+.logo{
+    padding: 25px;
+}
+
+#inicio,#sobre,#servicos#contato{
+    width: 100%;
+    height: auto;
+}
+
+
+#sobre{
+
+}
+#servicos{
+
+}
+#contato{
+
+}
+
+
+.back-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #080808;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.bg-body-tertiary a {
+    color: rgb(0, 0, 0);
+}
+
+footer{
+    margin-top: 15px;
+    background-color: #242424;
+    padding: 25px;
+    text-align: center;
+}
